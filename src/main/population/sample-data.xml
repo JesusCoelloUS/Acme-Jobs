@@ -17,4 +17,22 @@
 
 	<import resource="conversion-service.xml" />
 
+	<bean class="acme.entities.shouts.Shout" id="shout1">
+		<property value="Author1" name="author"/>
+		<property value="Testing the shout1" name="text"/>
+		<property value="2019/10/15 10:30" name="moment"/>
+	</bean>
+	
+	<bean class="acme.entities.shouts.Shout" id="shout2">
+		<property value="Author2" name="author"/>
+		<property value="Testing the shout2" name="text"/>
+		<property value="2019/10/15 11:30" name="moment"/>
+	</bean>
+	
+	<bean class="acme.entities.shouts.Shout" id="shout3">
+		<property value="Author3" name="author"/>
+		<property value="Testing the shout3" name="text"/>
+		<property value="2019/10/15 12:30" name="moment"/>
+	</bean>
+
 </beans>
