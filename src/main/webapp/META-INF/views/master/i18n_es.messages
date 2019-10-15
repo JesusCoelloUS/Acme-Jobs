@@ -31,6 +31,7 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link.jescoevas = Enlace favorito de Jesús
 master.menu.anonymous.favourite-link.frankrogo = Enlace favorito de frankrogo
+master.menu.anonymous.favourite-link.AleVazEnc = Enlace favorito de Alevazenc
 
 master.menu.anonymous.shout.list = Listar gritos
 master.menu.anonymous.shout.create = Crear grito
@@ -95,4 +96,3 @@ master.license.text = \
 	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
-	
