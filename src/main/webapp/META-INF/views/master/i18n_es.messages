@@ -31,6 +31,8 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link.jescoevas = Enlace favorito de Jesús
 master.menu.anonymous.favourite-link.frankrogo = Enlace favorito de frankrogo
+master.menu.anonymous.shout.list = Lista
+master.menu.anonymous.shout.create = Crear
 
 # master.menu.administrator ###################################################
 
