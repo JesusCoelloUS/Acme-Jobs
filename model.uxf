@@ -299,6 +299,7 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+
       <x>196</x>
       <y>294</y>
       <w>224</w>
@@ -307,6 +308,7 @@ has v</panel_attributes>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Shout
 --
+
 +moment:Date{Temporal(TIMESTAMP),Past}
 +author:String{NotBlank}
 +text:String{NotBlank}</panel_attributes>

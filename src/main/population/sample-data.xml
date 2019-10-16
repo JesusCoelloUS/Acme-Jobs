@@ -16,23 +16,25 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
-
-	<bean class="acme.entities.shouts.Shout" id="shout1">
-		<property value="Author1" name="author"/>
-		<property value="Testing the shout1" name="text"/>
-		<property value="2019/10/15 10:30" name="moment"/>
+  
+	<!-- Shouts -->
+	
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="author" value="John Doe"/>
+		<property name="text" value="I'm happy!"/>
+		<property name="moment" value="2019/09/09 10:00"/>
 	</bean>
 	
-	<bean class="acme.entities.shouts.Shout" id="shout2">
-		<property value="Author2" name="author"/>
-		<property value="Testing the shout2" name="text"/>
-		<property value="2019/10/15 11:30" name="moment"/>
+	<bean id="shout02" class="acme.entities.shouts.Shout">
+		<property name="author" value="Jane Doe"/>
+		<property name="text" value="I'm the master of my room!"/>
+		<property name="moment" value="2019/08/09 15:55"/>
 	</bean>
 	
-	<bean class="acme.entities.shouts.Shout" id="shout3">
-		<property value="Author3" name="author"/>
-		<property value="Testing the shout3" name="text"/>
-		<property value="2019/10/15 12:30" name="moment"/>
+	<bean id="shout03" class="acme.entities.shouts.Shout">
+		<property name="author" value="Foo Bar"/>
+		<property name="text" value="Just turning 20!"/>
+		<property name="moment" value="2019/09/07 00:00"/>
 	</bean>
-
+	
 </beans>
