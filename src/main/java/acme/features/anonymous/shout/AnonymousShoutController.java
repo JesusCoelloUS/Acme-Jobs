@@ -10,6 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
+
 package acme.features.anonymous.shout;
 
 import javax.annotation.PostConstruct;
@@ -27,13 +28,10 @@ import acme.framework.entities.Anonymous;
 @RequestMapping("/anonymous/shout/")
 public class AnonymousShoutController extends AbstractController<Anonymous, Shout> {
 
-	// Internal state ---------------------------------------------------------
-
 	@Autowired
 	private AnonymousShoutListService	listService;
 	@Autowired
 	private AnonymousShoutCreateService	createService;
-
 
 	// Constructors -----------------------------------------------------------
 

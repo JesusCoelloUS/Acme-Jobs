@@ -10,6 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
+
 package acme.features.anonymous.shout;
 
 import java.util.Collection;
@@ -31,23 +32,10 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 	@Autowired
 	AnonymousShoutRepository repository;
 
-
 	@Override
 	public boolean authorise(final Request<Shout> request) {
 		assert request != null;
-
 		return true;
-	}
-
-	@Override
-	public Collection<Shout> findMany(final Request<Shout> request) {
-		assert request != null;
-
-		Collection<Shout> result;
-
-		result = this.repository.findMany();
-
-		return result;
 	}
 
 	@Override
@@ -55,8 +43,14 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-
 		request.unbind(entity, model, "author", "text", "moment");
+  }
+
+	@Override
+	public Collection<Shout> findMany(final Request<Shout> request) {
+		assert request != null;
+		Collection<Shout> res = this.repository.findMany();
+		return res;
 	}
 
 }

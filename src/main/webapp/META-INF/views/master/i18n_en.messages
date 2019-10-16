@@ -31,8 +31,10 @@ master.menu.sign-out = Sign out
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link.jescoevas = Favourite link of Jesús
 master.menu.anonymous.favourite-link.frankrogo = Favourite link of frankrogo
-master.menu.anonymous.shout.list = List
-master.menu.anonymous.shout.create = Create
+master.menu.anonymous.favourite-link.AleVazEnc = Favourite link of AleVazEnc
+
+master.menu.anonymous.shout.list = List shouts
+master.menu.anonymous.shout.create = Create shout
 
 # master.menu.administrator ###################################################
 
