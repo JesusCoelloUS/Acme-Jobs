@@ -27,5 +27,7 @@ The following tools and components are required:
 	- Lombok 1.18.8
 
 
-# Updated by serperrui1
-
+Updated by frarodgom6@alum.us.es.
+Updated by jescoevas@alum.us.es
+Updated by AleVazEnc
+Updated by serperrui1
