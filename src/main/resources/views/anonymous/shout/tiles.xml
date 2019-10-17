@@ -1,0 +1,16 @@
+<?xml version"1.0" encoding="utf-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Fundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles_config_3.0.dtd">
+	
+	
+<tiles-definitions>
+	<definition name="anonymous/shout/list" extends="master">
+		<put-attribute name="body" type="template" value="../anoymous/shout/list.jsp"
+	</definition>
+	
+	<definiton name="anonymous/shout/form" extends="master">
+		<put-atribute name="body" type="template" value"../anonymous/shout/form.jsp"/>
+	</definiton>
+</tiles-definitions>

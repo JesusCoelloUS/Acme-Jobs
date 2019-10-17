@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
+  <help_text>&lt;&lt;Entity&gt;&gt;
+Shout
+--
++ moment: Date{Temporal(TIMESTAMP), Past}
++ author: String{NotBlank}
++ text: String{NotBlank}
+</help_text>
   <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
@@ -295,5 +302,21 @@ m1=1
 m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>259</x>
+      <y>280</y>
+      <w>112</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Shout
+--
++moment: Date{Temporal(TIMESTAMP),Past}
++author: String{NotBlank}
++text: String{NotBlank}</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
