@@ -20,12 +20,13 @@ public class Shout extends DomainEntity {
 	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
-	private String author;
-	
+	private String				author;
+
 	@NotBlank
-	private String text;
+	private String				text;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
-	private Date moment;
+	private Date				moment;
+
 }
