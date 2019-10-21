@@ -52,5 +52,4 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		Collection<Shout> res = this.repository.findMany();
 		return res;
 	}
-
 }

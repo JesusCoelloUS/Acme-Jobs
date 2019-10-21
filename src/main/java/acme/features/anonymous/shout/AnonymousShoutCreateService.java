@@ -1,4 +1,3 @@
-
 package acme.features.anonymous.shout;
 
 import java.util.Date;
@@ -68,5 +67,4 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		entity.setMoment(moment);
 		this.repository.save(entity);
 	}
-
 }
