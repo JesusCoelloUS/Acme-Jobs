@@ -97,6 +97,30 @@ INSERT INTO `authenticated` VALUES (5,0,3);
 UNLOCK TABLES;
 
 --
+-- Table structure for table `bulletin`
+--
+
+DROP TABLE IF EXISTS `bulletin`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `bulletin` (
+  `id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `bulletin`
+--
+
+LOCK TABLES `bulletin` WRITE;
+/*!40000 ALTER TABLE `bulletin` DISABLE KEYS */;
+/*!40000 ALTER TABLE `bulletin` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `consumer`
 --
 
@@ -227,7 +251,7 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$1WeglVcHQhMcy2tB3h1eJ.AIwiKsh7jux3h.ojLCdIZxSO3xPMYOW','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$LbmeIbIJSVTemuqYDIczTeaH00f8rIemKvA3S1lHYIwNjZPsUfmsG','administrator');
+INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$mL0BFxhnYRABFM/5R/hO.ubXUquW97iUojKYU81jwvQqLOd6ZcJgm','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$tpuZVskchRMciz.s1m1BkO.VRXWy.b//0.BU6NKfLDWyJJA5u.ToG','administrator');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -240,4 +264,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-10-22 16:03:44
+-- Dump completed on 2019-10-23 12:37:48
