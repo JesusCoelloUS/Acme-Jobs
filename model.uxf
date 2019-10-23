@@ -299,19 +299,32 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-
-      <x>196</x>
-      <y>294</y>
-      <w>224</w>
+      <x>168</x>
+      <y>350</y>
+      <w>245</w>
       <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Bulletin
+--
+
++name:String{NotBlank,Pattern(surnameBulletin)}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>182</x>
+      <y>434</y>
+      <w>210</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Shout
 --
-
 +moment:Date{Temporal(TIMESTAMP),Past}
-+author:String{NotBlank}
-+text:String{NotBlank}</panel_attributes>
++text:String{NotBlank}
++author:String{NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
